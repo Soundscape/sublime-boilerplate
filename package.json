@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Soundscape:Rac12gat_sal!@github.com/Soundscape/sublime-boilerplate.git"
+    "url": "https://github.com/Soundscape/sublime-boilerplate.git"
   },
   "author": "soundscape",
   "license": "MIT",
@@ -63,8 +63,16 @@
     "morgan": "^1.5.2",
     "nconf": "^0.7.1",
     "react": "^0.13.3",
+    "react-router": "^0.13.3",
     "sublime-application": "0.0.9",
+    "sublime-core": "0.0.29",
+    "sublime-net": "0.0.20",
     "sugar": "^1.4.1",
+    "tcomb": "^1.0.3",
+    "tcomb-form": "^0.5.6",
+    "tcomb-validation": "^1.0.4",
+    "velocity-animate": "^1.2.2",
+    "velocity-ui-pack": "^1.2.2",
     "winston": "^0.9.0"
   },
   "browser": {

@@ -5,15 +5,15 @@ DefaultRoute = Router.DefaultRoute
 views = require '../views'
 
 routes = (
-  <Route handler={views.EmptyView} name="home" path="/">
-    <Route handler={views.AddView} name="add-item" path="/item/add" />
+  <Route handler={views.product.EmptyView} name="home" path="/">
+    <Route handler={views.product.AddView} name="add-item" path="/product/add" />
 
-    <Route handler={views.EmptyView} path="/item/:id">
-      <Route handler={views.EditView} name="edit-item" path="edit" />
-      <DefaultRoute handler={views.ItemView} name="item" />
+    <Route handler={views.product.EmptyView} path="/product/:id">
+      <Route handler={views.product.EditView} name="edit-item" path="edit" />
+      <DefaultRoute handler={views.product.ItemView} name="item" />
     </Route>
 
-    <DefaultRoute handler={views.ListView} />
+    <DefaultRoute handler={views.product.ListView} />
   </Route>
 )
 
